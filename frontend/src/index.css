@@ -1,0 +1,65 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root settings */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #ffffff;
+  background-color: #0f172a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Make the page take full height */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Remove Vite default flex layout */
+body {
+  margin: 0;
+}
+
+/* Links */
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+/* Headings */
+h1 {
+  font-size: 3em;
+  line-height: 1.2;
+}
+
+/* Button base style (your login.css will override) */
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Force dark theme so backgrounds stay consistent */
+:root {
+  color: #ffffff;
+  background-color: #0f172a;
+}

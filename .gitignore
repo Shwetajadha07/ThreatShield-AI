@@ -1,0 +1,13 @@
+.env
+.env.*
+.codex/
+node_modules/
+__pycache__/
+venv/
+dist/
+*.log
+*.zip
+/ThreatShield-AI/
+outputs/
+clean-sample.txt
+frontend/-
