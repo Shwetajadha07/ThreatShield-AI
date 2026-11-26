@@ -8,6 +8,14 @@ A full-stack web application that detects malicious files and URLs in real time,
 
 ![Dashboard](screenshots/dashboard.png)
 ![Scanner](screenshots/scanner.png)
+![Login] (screenshots/login.png)
+![notification] (screenshots/notification.png)
+![setting] (screenshots/setting.png)
+![threats] (screenshots/threats.png)
+![threatscanner] (screenshots/threatscanner.png)
+![userlogin] (screenshots/userlogin.png)
+![user] (screenshots/user.png)
+
 
 ## Features
 
